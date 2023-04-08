@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: red;
+    width: 50%;
+    height: 15rem;
+    margin-left: 25%;
+}
+
+.button{
+    width: 48%;
+    text-align: center;
+    background-color: aqua;
+    font-size:xx-large;
+    height: 43%;
+}
+
+button:active{
+    background-color: rgb(0, 183, 255);
+}
+
+.details{
+    text-align: center;
+}
